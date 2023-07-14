@@ -7,6 +7,7 @@
   "icon": "./src/images/nextjs.png",
   "homepage": "https://shibu.dev",
   "pricing": "Free",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/nshibu/nextjs-js-ts-code-snippets"
