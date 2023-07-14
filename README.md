@@ -132,12 +132,10 @@ import Link from "next/link";
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request to the [GitHub repository](https://github.com/nshibu/nextjs-js-ts-snippets).
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request to the [GitHub repository](https://github.com/nshibu/nextjs-js-ts-code-snippets).
 
 ## License
 
 This extension is released under the [MIT License](https://opensource.org/licenses/MIT).
 
-```
 Feel free to modify the content of the `readme.md` file to match your extension's details, usage instructions, and any additional information you want to provide.
-```
