@@ -1,0 +1,93 @@
+{
+  "print message to the console": {
+    "prefix": "log",
+    "body": ["console.log($1);"],
+    "description": "Log to console"
+  },
+  "App dir Page.js function": {
+    "prefix": "nafc",
+    "body": [
+      "export default function ${1:Page}() {",
+      "\treturn (<div>$1</div>);",
+      "}"
+    ],
+    "description": "Create a function for Page.js"
+  },
+  "App dir Layout": {
+    "prefix": "nal",
+    "body": [
+      "export default function ${1:Layout}({children}) {",
+      "\treturn (<section>{children}</section>);",
+      "}"
+    ],
+    "description": "Create a basic Layout"
+  },
+  "Data Fetching": {
+    "prefix": "nafcdf",
+    "body": [
+      "async  function ${1:getData}(){",
+      "\tconst res=await fetch('${2:https://api.example.com}');",
+      "\t// The return value is *not* serialized",
+      "\t// You can return Date, Map, Set, etc.",
+      "\treturn res.json();",
+      "}",
+      "\n",
+      "\t// This is an async Server Component",
+      "export default async function ${3:Page}() {",
+      "\tconst data = await $1();",
+      "\treturn (<div>$3</div>);",
+      "}"
+    ],
+    "description": "Create a Data Fetching page"
+  },
+  "next/image": {
+    "prefix": "<Image",
+    "body": [
+      "<Image alt='${1:Alt Text}' src={${2:src}} placeholder='${3:blur}' />;"
+    ],
+    "description": "Image component allowing you to easily display images without layout shift and optimize files on-demand for increased performance."
+  },
+  "Import Image from next/image": {
+    "prefix": "impi",
+    "body": ["import Image from 'next/image';"],
+    "description": "Import Image component from next/image."
+  },
+  "Import font from next/font/google": {
+    "prefix": "impf",
+    "body": ["import {${1:Inter}} from '@next/font/google';"],
+    "description": "Import font from next/font."
+  },
+  "Import font from next/font/google with declaration": {
+    "prefix": "impfd",
+    "body": [
+      "import {${1:Inter}} from '@next/font/google';",
+      "\n",
+      "const ${2:googleFont} = $1();"
+    ],
+    "description": "Import font from next/font."
+  },
+  "Import local font": {
+    "prefix": "implf",
+    "body": ["import localFont from '@next/font/local';"],
+    "description": "Import local font."
+  },
+  "Import local font with declaration": {
+    "prefix": "implfd",
+    "body": [
+      "import localFont from '@next/font/local';",
+      "\n",
+      "const myFont = localFont({ src: '${1:./my-font.woff2}' });"
+    ],
+    "description": "Import local font."
+  },
+  "Import Link from next/link": {
+    "prefix": "impl",
+    "body": ["import Link from 'next/link';"],
+    "description": "Import Link from next/link."
+  },
+  "next/link": {
+    "prefix": "<Link",
+    "body": ["<Link href='/${1:go to}'>", "\t$1", "</Link>"],
+    "description": "Image component allowing you to easily display images without layout shift and optimize files on-demand for increased performance."
+  }
+}

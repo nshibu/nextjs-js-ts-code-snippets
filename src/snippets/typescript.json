@@ -1,0 +1,7 @@
+{
+  "print message to the console": {
+    "prefix": "shibu",
+    "body": ["console.log($1);"],
+    "description": "Log to console"
+  }
+}
