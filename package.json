@@ -6,6 +6,7 @@
   "publisher": "Shibu N",
   "icon": "./src/images/nextjs.png",
   "homepage": "https://shibu.dev",
+  "pricing": "Free",
   "repository": {
     "type": "git",
     "url": "https://github.com/nshibu/nextjs-js-ts-code-snippets"
