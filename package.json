@@ -3,6 +3,13 @@
   "displayName": "Nextjs - Js/Ts Snippets",
   "description": "A simple extension that saves you time. It will generate boiler plate code for you.",
   "version": "0.0.1",
+  "publisher": "Shibu N",
+  "icon": "./src/images/nextjs.png",
+  "homepage": "https://shibu.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nshibu/nextjs-js-ts-code-snippets"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
